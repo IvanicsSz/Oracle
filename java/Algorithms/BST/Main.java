@@ -10,5 +10,8 @@ public class Main {
         bst.insert(2);
         bst.insert(5);
         bst.traverseInOrder();
+
+        bst.remove(5);
+        bst.traverseInOrder();
     }
 }

@@ -97,4 +97,10 @@ public class Node{
             this.rightChild.traverseInOrder();
     }
 
+    @Override
+    public String toString() {
+        return "Node{" +
+                "data=" + data +
+                '}';
+    }
 }
